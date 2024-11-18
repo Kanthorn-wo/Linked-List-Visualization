@@ -312,7 +312,7 @@
             renderList();
 
             // Display time taken
-            const timeTaken = (end - start).toFixed(2);
+            const timeTaken = (end - start);
             timeDisplay.textContent = `Sorting completed in ${timeTaken} ms`;
         }
 
@@ -337,7 +337,7 @@
                 renderList();
 
                 // Display time taken
-                const timeTaken = (end - start).toFixed(2);
+                const timeTaken = (end - start);
                 timeDisplay.textContent = `Generated ${count} random nodes in ${timeTaken} ms`;
             } else {
                 alert('Please enter a valid number of nodes');
